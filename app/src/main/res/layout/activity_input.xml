@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/insert_file2"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        />
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginVertical="8dp"
+        android:hint="Isikan Nama"
+        android:textSize="20sp"
+        android:textColorHint="@color/blue"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginVertical="8dp"
+        android:hint="Isikan Password"
+        android:textSize="20sp"
+        android:textColorHint="@color/blue"/>
+    <EditText
+        android:id="@+id/etNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginVertical="8dp"
+        android:hint="Isikan Nilai"
+        android:textSize="20sp"
+        android:textColorHint="@color/blue"/>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue"
+        android:text="Submit"
+        android:textSize="15sp"
+        android:layout_marginVertical="15dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"/>
+
+</LinearLayout>
